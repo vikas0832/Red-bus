@@ -6,6 +6,7 @@
     box-sizing: border-box;
     list-style: none;
     font-family: "Montserrat", serif;
+    text-decoration: none;
 
 }
 
@@ -427,7 +428,6 @@ footer {
     display: flex;
     gap: 100px;
     margin-top: 50px;
-    color: black;
 }
 
 
@@ -440,5 +440,11 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    color: black;
+   
+}
+.col  a{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black
 }
